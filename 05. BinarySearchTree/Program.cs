@@ -184,7 +184,7 @@ namespace _05._BinarySearchTree
             // sortedDictionary.Add(4, "F");    // error : SortedDictionary는 중복을 허용하지 않음
 
             sortedDictionary.TryAdd(5, "F");
-            //예외처리까지 감안하여 키 추가( 있으면 변동X, 없으면 추가 )
+            // 예외처리까지 감안하여 키 추가( 있으면 변동X, 없으면 추가 )
 
             // 삭제
             sortedDictionary.Remove(5);
