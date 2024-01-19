@@ -121,8 +121,8 @@
 
             // 삽입
             set.Add("D");
-            set.Add("B");      //중복추가는 무시
             set.Add("B");
+            set.Add("B");      // 중복추가는 무시
             set.Add("C");
             set.Add("A");
             set.Add("A");

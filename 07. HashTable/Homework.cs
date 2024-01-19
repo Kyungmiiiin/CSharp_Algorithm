@@ -15,12 +15,16 @@ namespace _07._HashTable
             cheatDic = new Dictionary<string, Action>();
 
             cheatDic.Add("Money", ShowMeTheMoney);
-            cheatDic.Add("Level", ThereIsNoCowLevel);
+            cheatDic.Add("Win", ThereIsNoCowLevel);
          }
         public void Run( string cheatKey )
         {
             cheatDic.TryGetValue(cheatKey, out Action action);
             action?.Invoke();
+            //if (CheatDic.ContainsKey(cheat))
+            //{
+            //      cheatDic[cheat]();
+            //}
         }
 
         public void ShowMeTheMoney()
