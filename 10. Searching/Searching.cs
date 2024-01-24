@@ -91,7 +91,6 @@ namespace _10._Searching
         // 그래프의 분기를 만났을 때 모든 분기들을 탐색한 뒤,
         // 다음 깊이의 분기들을 탐색
         // 큐를 통해 탐색
-        // 최단경로 확인가능
         public static void BFS( in bool [,] graph, int start, out bool [] visited, out int [] parents )
         {
             visited = new bool [graph.GetLength(0)];
